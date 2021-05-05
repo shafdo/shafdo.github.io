@@ -1,0 +1,84 @@
+
+body{
+    background-color: var(--darkblue) !important;
+}
+
+.container{
+    background-color: var(--black);
+    border-radius: 10px;
+    border: 3px solid var(--white);
+    margin-top: -6rem;
+    overflow: hidden;
+}
+
+#github, #discord, #twitter, #linkedin{
+    transition: .8s;
+}
+
+#github:hover, #discord:hover, #twitter:hover, #linkedin:hover{
+    filter: sepia(5) saturate(100) hue-rotate(21deg);
+    transform: scale(1.1);
+}
+
+#cert-list{
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.banner-wrapper {
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, red , yellow);
+    border-image-slice: 1;
+    background-attachment: fixed;
+}
+
+#mypic{
+    border-radius: 25px;
+    width: 22rem;
+    height: 28rem;
+}
+
+.content-card-img{
+    width: 12rem !important;
+}
+
+@media (min-width: 991px){
+    .content-card-img{
+        height: 100% !important;
+    }
+}
+
+@media (max-width: 767px){
+    .content-card-img{
+        height: auto !important;
+    }
+}
+
+@media (max-width: 575px){
+
+    .content-card-img{
+        width: 100% !important;
+        height: 50vh !important;
+    }
+
+    .content-card-desc{
+        line-height: 30px !important;
+    }
+}
+
+
+@media (max-width: 575px){
+    .container{
+        border-radius: 0px !important;
+        border-top: 3px solid var(--white);
+        border-bottom: 3px solid var(--white);
+        border-right: none;
+        border-left: none;
+    }
+}

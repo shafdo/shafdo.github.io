@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Writeup || SHAFDO</title>
+
+    <!-- Dependencies -->
+    <link rel="stylesheet" href="/assets/webfiles/dependencies/semanticUI/semantic.min.css">
+    <link rel="stylesheet" href="/assets/webfiles/dependencies/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/webfiles/dependencies/animateCSS/animate.min.css">
+    <link rel="stylesheet" href="/assets/webfiles/dependencies/hamburgers/hamburgers.min.css">
+
+    <script src="/assets/webfiles/dependencies/jquery/jquery.min.js"></script>
+    <script src="/assets/webfiles/dependencies/firebase/firebase-app.js"></script>
+    <script src="/assets/webfiles/dependencies/firebase/firebase-analytics.js"></script>
+    <script src="/assets/webfiles/dependencies/firebase/firebase-firestore.js"></script>
+    <script src="/assets/webfiles/dependencies/bootstrap/bootstrap.min.js"></script>
+    <script src="/assets/webfiles/dependencies/bootstrap/popper.min.js"></script>
+    <script src="/assets/webfiles/dependencies/semanticUI/semantic.min.js"></script>
+    <script src="/assets/webfiles/dependencies/typewritter/core.js"></script>
+    <script src="/assets/webfiles/dependencies/particlesjs/particles.min.js"></script>
+    <script src="/assets/webfiles/dependencies/dompurify/purify.min.js"></script>
+    <!-- Dependencies End -->
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/includes_and_pages/ctfwriteups.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/colors.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/icons.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/button.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/navbar_footer.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/scrollbars.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/underliners.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/cards.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/theme.css">
+
+    <script src="/assets/webfiles/custom/js/navbar_footer/index.js" defer></script>
+    <!-- Custom End -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script data-ad-client="ca-pub-9242158446861093" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168782857-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168782857-1');
+    </script>
+    <!--Google Analytics END-->
+
+
+</head>
+<body>
+
+    <div id="loader" class="ui active dimmer">
+        <div class="ui text loader">Loading</div>
+    </div>
+
+
+    <div id="navbar"></div>
+
+    <div id="banner-wrapper-overlay">
+        
+    </div>
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <br>
+                <h5><a class="white" href="/">Home</a> > <a class="white" href="../../">Blog</a> > <a href="../" class="white">CTF</a> > <a id="cwd" href="#" class="green font-weight-bold"></a></h5>
+                <h1 id="room-name" class="text-center pt-4 mb-0 raspberry"></h1>
+                <hr class="line-center">
+            </div>
+        </div>
+
+        <br><br>
+
+        <div id="room-info" class="row"></div>
+
+        <br><br>
+
+        <div id="blogs-container" class="row"></div>
+
+
+        <br><br>
+
+    </div>
+
+    <br><br>
+
+
+
+    <div id="footer"></div>
+
+
+
+    <!-- custom script -->
+    <script defer src="/assets/webfiles/custom/js/config.js"></script>
+    <script defer src="/assets/webfiles/custom/js/ctf-writeups/index.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            window.fetch_ctf_writeup("Simple CTF").then(()=>{
+                $("#loader").addClass("d-none");
+            })
+        });
+    </script>
+    <!-- custom script End  -->
+
+</body>
+</html>

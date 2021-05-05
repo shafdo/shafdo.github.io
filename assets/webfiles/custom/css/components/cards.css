@@ -1,0 +1,43 @@
+
+.card p{
+    color: var(--black);
+    font-size: 16px !important;
+    line-height: 30px !important;
+}
+
+.ui.card>.content, .ui.cards>.card>.content{
+    height: 10rem !important;
+}
+
+.ui.card>.content, .ui.cards>.card>.content.about{
+    height: auto !important;
+}
+
+.ui.card > .image:not(.ui) > img, .ui.cards > .card > .image:not(.ui) > img{
+    height: 11rem !important;
+}
+
+.ui.card{
+    transition: .5s;
+}
+.ui.card:hover{
+    transform: scale(1.02);
+}
+
+
+/*tryhackme card styles*/
+div.overlay-card{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+    transition: .7s;
+}
+
+div.overlay-card:hover{
+    background-color: rgba(0,0,0,0);
+}
+/*tryhackme card styles End*/

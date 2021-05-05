@@ -1,0 +1,23 @@
+
+#banner404{
+    background-image: url(/assets/images/purple-space-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#banner404 > .overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+#illustration-404{
+    max-width: 350px;
+    max-height: 350px;
+}

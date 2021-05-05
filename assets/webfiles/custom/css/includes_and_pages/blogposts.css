@@ -1,0 +1,57 @@
+body{
+    background-color: var(--darkblue) !important;
+}
+
+.container{
+    background-color: var(--black);
+    border-radius: 10px;
+    border: 3px solid var(--white);
+    margin-top: -6rem;
+    overflow: hidden;
+}
+
+.date{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    color: #B399FF;
+    font-weight: bold;
+}
+
+P{
+    padding: 20px;
+}
+
+.srcshots {
+    margin: 20px;
+    border: 1px solid #fff;
+}
+
+#room-owner-profile:hover{
+    color: var(--lightblue);
+    text-decoration: none;
+}
+
+.banner-wrapper {
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, red , yellow);
+    border-image-slice: 1;
+    background-attachment: fixed;
+}
+
+
+@media (max-width: 575px){
+    .container{
+        border-radius: 0px !important;
+        border-top: 3px solid var(--white);
+        border-bottom: 3px solid var(--white);
+        border-right: none;
+        border-left: none;
+    }
+}

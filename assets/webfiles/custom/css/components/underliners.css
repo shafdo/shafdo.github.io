@@ -1,0 +1,27 @@
+
+
+.line-center{
+    width: 5rem;
+    border-bottom: 3px solid var(--raspberry);
+    margin-top: 10px;
+}
+
+.line-center-white{
+    width: 5rem;
+    border-bottom: 3px solid var(--white);
+    margin-top: 10px;
+}
+
+.line-center-white-lg{
+    width: 15rem !important;
+}
+
+.line-center-green{
+    width: 5rem;
+    border-bottom: 3px solid var(--green);
+    margin-top: 10px;
+}
+
+.line-center-green-lg{
+    width: 15rem !important;
+}

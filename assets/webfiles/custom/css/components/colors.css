@@ -1,0 +1,82 @@
+
+/* Colors */
+.blue{
+    color: var(--blue);
+}
+.blue:hover{
+    color: var(--blue);
+}
+
+.black{
+    color: var(--black);
+}
+.black:hover{
+    color: var(--black);
+}
+
+.lightblue{
+    color: var(--lightblue);
+}
+.lightblue:hover{
+    color: var(--lightblue);
+}
+
+.raspberry{
+    color: var(--raspberry);
+}
+.raspberry:hover{
+    color: var(--raspberry);
+}
+
+.darkgrey{
+    color: var(--darkgrey);
+}
+.darkgrey:hover{
+    color: var(--darkgrey);
+}
+
+.white{
+    color: var(--white);
+}
+.white:hover{
+    color: var(--white);
+}
+
+.green{
+    color: var(--green);
+}
+.green:hover{
+    color: var(--green);
+}
+
+/* Colors End */
+
+/* Backgrounds */
+.bg-blue{
+    background-color: var(--blue) !important;
+}
+
+.bg-black{
+    background-color: var(--black) !important;
+}
+
+.bg-lightblue{
+    background-color: var(--lightblue) !important;
+}
+
+.bg-raspberry{
+    background-color: var(--raspberry) !important;
+}
+
+.bg-darkgrey{
+    background-color: var(--darkgrey) !important;
+}
+
+.bg-white{
+    background-color: var(--white) !important;
+}
+
+.bg-green{
+    background-color: var(--green) !important;
+}
+/* Backgrounds End */

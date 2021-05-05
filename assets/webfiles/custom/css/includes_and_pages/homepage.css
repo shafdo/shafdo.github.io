@@ -1,0 +1,28 @@
+
+#sec1{
+    background-image: url("/assets/images/home-background.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sec1 > .overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+
+#center-intro{
+    height: 100vh;
+    color: var(--white);
+}
+
+.svgcolorchange{
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(188deg) brightness(119%) contrast(119%) !important;
+}
+
+.particles-js-canvas-el{
+    position: absolute;
+    top: 0px;
+}

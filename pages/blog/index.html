@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog || SHAFDO</title>
+
+    <!-- Dependencies -->
+    <link rel="stylesheet" href="/assets/webfiles/dependencies/semanticUI/semantic.min.css">
+    <link rel="stylesheet" href="/assets/webfiles/dependencies/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/webfiles/dependencies/animateCSS/animate.min.css">
+    <link rel="stylesheet" href="/assets/webfiles/dependencies/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="/assets/webfiles/dependencies/aos/aos.css">
+
+    <script src="/assets/webfiles/dependencies/jquery/jquery.min.js"></script>
+    <script src="/assets/webfiles/dependencies/firebase/firebase-app.js"></script>
+    <script src="/assets/webfiles/dependencies/firebase/firebase-analytics.js"></script>
+    <script src="/assets/webfiles/dependencies/firebase/firebase-firestore.js"></script>
+    <script src="/assets/webfiles/dependencies/bootstrap/bootstrap.min.js"></script>
+    <script src="/assets/webfiles/dependencies/bootstrap/popper.min.js"></script>
+    <script src="/assets/webfiles/dependencies/semanticUI/semantic.min.js"></script>
+    <script src="/assets/webfiles/dependencies/typewritter/core.js"></script>
+    <script src="/assets/webfiles/dependencies/particlesjs/particles.min.js"></script>
+    <script src="/assets/webfiles/dependencies/dompurify/purify.min.js"></script>
+    <script src="/assets/webfiles/dependencies/aos/aos.js"></script>
+    <!-- Dependencies End -->
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/includes_and_pages/blog.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/colors.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/icons.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/button.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/navbar_footer.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/scrollbars.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/underliners.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/cards.css">
+    <link rel="stylesheet" href="/assets/webfiles/custom/css/components/theme.css">
+
+    <script src="/assets/webfiles/custom/js/navbar_footer/index.js" defer></script>
+    <!-- Custom End -->
+
+</head>
+<body>
+
+    <div id="loader" class="ui active dimmer">
+        <div class="ui text loader">Loading</div>
+    </div>
+
+
+    <div id="navbar"></div>
+
+    <div class="p-5 m-4"></div>
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <br>
+                <h5><a class="white" href="/">Home</a> > <a class="green font-weight-bold" href="#">Blog</a></h5>
+                <h1 class="text-center pt-4 mb-0 raspberry"># Blog</h1>
+                <hr class="line-center">
+            </div>
+        </div>
+
+        <br><br>
+
+        <div id="blogs-container" class="row"></div>
+
+        <br><br><br>
+        <br><br><br>
+
+    </div>
+
+    <br><br>
+
+
+
+    <div id="footer"></div>
+
+
+
+    <!-- custom script -->
+    <script defer src="/assets/webfiles/custom/js/config.js"></script>
+    <script defer src="/assets/webfiles/custom/js/blog/index.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    <!-- custom script End  -->
+
+</body>
+</html>

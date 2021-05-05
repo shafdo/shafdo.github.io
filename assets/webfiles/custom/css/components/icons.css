@@ -1,0 +1,38 @@
+
+.icon-xs{
+    width: 30px;
+}
+
+.icon-sm{
+    width: 50px;
+}
+
+.icon-md{
+    width: 75px;
+}
+
+.icon-lg{
+    width: 150px;
+}
+
+.icon-xl{
+    width: 300px;
+}
+
+.icon-xxl{
+    width: 600px;
+}
+
+.icon-round{
+    border-radius: 100px;
+}
+
+
+/* borders */
+.border-white{
+    border: 3px solid var(--white) !important;
+}
+.border-right-white{
+    border-right: 3px solid var(--white) !important;
+}
+/* borders End */

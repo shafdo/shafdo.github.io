@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --black: #1A1A1D;
+    --white: #F8F8F8;
+    --darkgrey: #4E4E50;
+    --raspberry: #EA0B64;
+    --darkblue: #090023d4;
+    --blue: #3500D3;
+    --lightblue: #B399FF;
+    --green: #55e439;
+    --darkgreen: #2cbd0f;
+}
+
+body{
+    background-color: var(--black);
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6,ul li, a, button, p, span{
+    font-family: 'Poppins', sans-serif !important;
+    color: var(--white);
+}
+
+p{
+    font-size: 18px !important;
+    line-height: 35px !important;
+}
+
+.ui.dimmer{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+
+
+
+
