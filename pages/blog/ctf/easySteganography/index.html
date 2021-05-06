@@ -106,6 +106,9 @@
 
     <script>
         $(document).ready(function () {
+            setTimeout(() => {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            }, 5000);
             window.fetch_ctf_writeup("Easy Steganography ").then(()=>{
                 $("#loader").addClass("d-none");
             })
