@@ -105,7 +105,9 @@
 
     <script>
         $(document).ready(function () {
-            (adsbygoogle = window.adsbygoogle || []).push({});
+            setTimeout(() => {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            }, 5000);
             window.fetch_ctf_writeup("Startup").then(()=>{
                 $("#loader").addClass("d-none");
             })
