@@ -26,3 +26,24 @@
     position: absolute;
     top: 0px;
 }
+
+
+#sec2{
+    background-image: url("/assets/mockups/myweb-in-lap.jpg");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sec2 > .overlay{
+    background-color: rgba(0, 0, 0, 0.75);
+    height: auto;
+}
+
+#desktop-app-jumbotron{
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 3px solid #fcfcfc;
+}
