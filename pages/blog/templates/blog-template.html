@@ -1,11 +1,24 @@
+<!--
+Replace the following:
+    <\!-- 1. Remove These --\>
+    <\!-- 2. blog_post title --\>
+    <\!-- 3. blog_meta_desc title --\>
+    
+That's it.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find command tutorial || SHAFDO</title>
-    <meta name="description" content="A fundamental guide to deal with the find command.">
+    <!-- 1. Remove These -->
+    <script>location.assign("/404.html")</script>
+    <!-- 1. Remove These End --> 
+
+    <title><!-- 2. blog_post title --> || SHAFDO</title>
+    <meta name="description" content="<!-- 3. blog_meta_desc title -->">
 
     <!-- Dependencies -->
     <link rel="stylesheet" href="/assets/webfiles/dependencies/semanticUI/semantic.min.css">
@@ -105,7 +118,7 @@
 
     <script>
         $(document).ready(function () {
-            window.fetch_blog_post("Find command tutorial").then(()=>{
+            window.fetch_blog_post("<!-- 2. blog_post title -->").then(()=>{
                 $("#loader").addClass("d-none");
             })
         });
