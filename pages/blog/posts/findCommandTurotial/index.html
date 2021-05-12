@@ -105,6 +105,9 @@
 
     <script>
         $(document).ready(function () {
+            setTimeout(() => {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            }, 5000);
             window.fetch_blog_post("Find command tutorial").then(()=>{
                 $("#loader").addClass("d-none");
             })
