@@ -80,7 +80,3 @@
     background-color: var(--green) !important;
 }
 /* Backgrounds End */
-
-a:hover{
-    color: var(--lightblue) !important;
-}
