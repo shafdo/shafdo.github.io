@@ -47,3 +47,9 @@
     background-color: rgba(0, 0, 0, 0.75);
     border: 3px solid #fcfcfc;
 }
+
+@media (max-width: 991px){
+    #desktop-app-jumbotron{
+        width: 100%;
+    }
+}

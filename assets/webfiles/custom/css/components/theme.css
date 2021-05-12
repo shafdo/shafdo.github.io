@@ -34,6 +34,12 @@ p{
     background-color: rgb(0, 0, 0) !important;
 }
 
+@media (max-width: 767px){
+    .file-hash{
+        overflow-x: scroll !important;
+        overflow-y: hidden !important;
+    }
+}
 
 
 
