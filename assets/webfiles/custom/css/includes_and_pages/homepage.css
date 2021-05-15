@@ -1,3 +1,7 @@
+html{
+    height: auto !important;
+    overflow-x: hidden !important;
+}
 
 #sec1{
     background-image: url("/assets/images/home-background.png");

@@ -6,10 +6,10 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Hello World 😃')
+typewriter.typeString('Hello World <img class="icon-xs" src="/assets/emojis/smiling-face-with-open-mouth.png">')
     .pauseFor(2000)
     .deleteAll()
-    .typeString('Welcome to my <strong>world</strong> 🌎')
+    .typeString('Welcome to my <strong>world</strong> <img class="icon-xs" src="/assets/emojis/earth-globe-americas.png">')
     .pauseFor(3000)
     .start();
     
