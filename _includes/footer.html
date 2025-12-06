@@ -1,3 +1,14 @@
 <footer>
-  © 2025 <a href="https://shalinda.dev">shalida.dev</a> — All Rights Reserved.
+  <div style="display: flex; justify-content: center">
+    © &nbsp;
+    <div id="copyryt-year"></div>
+    &nbsp; <a href="https://shalinda.dev">shalida.dev</a> &nbsp; — All Rights
+    Reserved.
+  </div>
 </footer>
+
+<script>
+  document.getElementById(
+    "copyryt-year"
+  ).innerText = `${new Date().getFullYear()}`;
+</script>
