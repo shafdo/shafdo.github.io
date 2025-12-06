@@ -8,16 +8,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-  # - text: Home
-  #   url: /
+  - text: Home
+    url: /blog
   - text: About
     url: https://shalinda.dev/
   - text: Blog
     url: /blog
-  # - text: Gallery
-  #   url: /gallery
-  # - text: Shop
-  #   url : /shop
   - text: Contact
     url: https://shalinda.dev/contact
 
