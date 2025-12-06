@@ -5,7 +5,11 @@
     <p class="post-summary">
       Posted by : {% if page.author %}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name"><a href="{{site.url}}{{site.baseurl}}/blog/authors/{{page.author}}">{{ page.author }}</a></span> </span
+        <span itemprop="name"
+          ><a href="{{site.url}}{{site.baseurl}}/authors/{{page.author}}"
+            >{{ page.author }}</a
+          ></span
+        > </span
       >{% endif %} on
       <time datetime="{{ page.date }}" itemprop="datePublished"
         >{{ page.date | date: "%b %-d, %Y" }}</time
@@ -19,7 +23,7 @@
       {% if post %} {% assign categories = post.categories %} {% else %} {%
       assign categories = page.categories %} {% endif %} Category : {% for
       category in categories %}
-      <a href="{{site.baseurl}}/blog/categories/{{category|slugize}}"
+      <a href="{{site.baseurl}}/categories/{{category|slugize}}"
         >{{category}}</a
       >
       {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
@@ -38,35 +42,32 @@
     <br />
     {%- include share_page.html -%}
     <!-- Author box -->
-    {% assign author = site.data.authors[page.author] %}
-      {% if author %}
-      {% include author.html %}
-    {% endif %}
+    {% assign author = site.data.authors[page.author] %} {% if author %} {%
+    include author.html %} {% endif %}
   </div>
 
   <div class="comments">
-    <script src="https://giscus.app/client.js"
-        data-repo="sujaykundu777/devlopr-jekyll"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkxMzk1NzQ1NTY="
-        data-category="General"
-        data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyODk4MTky"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-    </script>
+    <script
+      src="https://giscus.app/client.js"
+      data-repo="sujaykundu777/devlopr-jekyll"
+      data-repo-id="MDEwOlJlcG9zaXRvcnkxMzk1NzQ1NTY="
+      data-category="General"
+      data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyODk4MTky"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="preferred_color_scheme"
+      data-lang="en"
+      crossorigin="anonymous"
+      async
+    ></script>
   </div>
 
   {%- if site.hyvor_talk_website_id -%}
-  <div class="comments">
-    {%- include hyvor_comments.html -%}
-   </div>
-    {%- endif -%}
+  <div class="comments">{%- include hyvor_comments.html -%}</div>
+  {%- endif -%}
   <!-- Incomment incase you want to use Disqus
       <div id="disqus_thread"></div>
    -->
